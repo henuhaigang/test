@@ -6,7 +6,7 @@ public class A {
 	}
 	//void m() {
 //		if (this instanceof A) {
-//			System.out.println("I'm a A object!");
+//			System.out.println("I'm a A object!");12133
 //		}
 
 		
