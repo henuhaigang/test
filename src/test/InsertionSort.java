@@ -36,12 +36,6 @@ public class InsertionSort {
                     array[i] = temp;
                 }
             }
-         /*   int temp;
-            if(array[i]>array[i+1]){
-                temp=array[i];
-                array[i]=array[i+1];
-                array[i+1]=temp;
-            }*/
         }
         return array;
     }
