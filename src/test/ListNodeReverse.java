@@ -31,6 +31,7 @@ public class ListNodeReverse {
         if(head==null||head.next ==null)
             return head;
         ListNode prev = reverseList(head.next);
+        //应为head.next为null的时候就会返回了，所以最后一个满足自旋的一定是倒数第三个，即倒数第三个为head
         head.next.next = head;
         head.next = null;
         return prev;
