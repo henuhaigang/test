@@ -59,7 +59,7 @@ public class DikaerjiTest {
         List<String> curList=new ArrayList<>();
 
         List<String> tempList=new ArrayList<>();
-        List<String> result=new ArrayList<>();
+
         for(int i=0;i<dimSize;i++){
             if(i==0){
                // result.add(dimvalue.get(i))

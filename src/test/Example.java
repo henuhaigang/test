@@ -8,6 +8,7 @@ public class Example {
 	String str = "abc";
 	char[] ch = { 'a', 'b', 'c' };
 
+
 	private  final Map<String,String> mymap;
 	public Example(){
 		Map<String,String> map=new ConcurrentHashMap<>();
