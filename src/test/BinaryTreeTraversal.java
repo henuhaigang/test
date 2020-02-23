@@ -166,5 +166,6 @@ public class BinaryTreeTraversal {
         tree.depthOrderTraversal();
         //tree.printFromTopToBottom(root);
         tree.levelOrderTraversal();
+        Set set=new HashSet();
     }
 }
